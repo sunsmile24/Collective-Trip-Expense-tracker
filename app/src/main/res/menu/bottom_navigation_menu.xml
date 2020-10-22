@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_active"
+        android:enabled="true"
+        android:title="Active"/>
+    <item
+        android:id="@+id/page_wait"
+        android:enabled="true"
+        android:title="Wait"/>
+    <item
+        android:id="@+id/page_archive"
+        android:enabled="true"
+        android:title="Archive"/>
+    <item
+        android:id="@+id/page_profile"
+        android:enabled="true"
+        android:title="Profile"
+        app:showAsAction="withText"/>
+</menu>
